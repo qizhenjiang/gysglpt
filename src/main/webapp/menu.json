@@ -1,0 +1,25 @@
+{
+   "menus" : [
+   {"icon" : "icon-sys","menuid" : "1","menuname" : "供应商管理","url" : "","menus" : [
+                 {"icon" : "icon-log","menuid" : "1_1","menuname" : "供应商信息维护","url" : "/gysglpt/user/query.action"},
+                {"icon" : "icon-log","menuid" : "1_1","menuname" : "供应商l联系人维护","url" : "/yycgproject/user/queryuser.action"},
+                 {"icon" : "icon-log","menuid" : "1_1","menuname" : "固定资产信息维护","url" : "/yycgproject/user/queryuser.action"},
+                  {"icon" : "icon-log","menuid" : "1_1","menuname" : "耗材信息信息维护","url" : "/yycgproject/user/queryuser.action"}
+                 ] 
+               },
+               {"icon" : "icon-sys","menuid" : "1","menuname" : "信息维护","url" : "","menus" : [
+                 {"icon" : "icon-log","menuid" : "1_1","menuname" : "供应商账号设置","url" : "/yycgproject/ypml/exportypxx.action"
+                 }] 
+               },
+               {"icon" : "icon-sys","menuid" : "1","menuname" : "工作面板","url" : "","menus" : [
+                 {"icon" : "icon-log","menuid" : "1_1","menuname" : "待维护","url" : "/yycgproject/cgd/addcgd.action"
+                 },
+                 {"icon" : "icon-log","menuid" : "1_1","menuname" : "待审批","url" : "/yycgproject/cgd/querycgd.action"
+                 },
+                 {"icon" : "icon-log","menuid" : "1_1","menuname" : "已审批","url" : "/yycgproject/cgd/querycheckcgd.action"
+                 },
+                 {"icon" : "icon-log","menuid" : "1_1","menuname" : "已验收","url" : "/yycgproject/cgd/disposecgd.action"
+                 }] 
+               }
+             ]
+}
