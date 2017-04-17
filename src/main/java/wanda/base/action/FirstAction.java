@@ -24,6 +24,10 @@ public class FirstAction {
 	@RequestMapping("/first")
 	public  String  first(Model   model){
 		
+		
+		
+		
+		
 		Sysuser    sysuser=userservice.selectByPrimaryKey("199");
 		model.addAttribute("sysuser", sysuser);
 		
